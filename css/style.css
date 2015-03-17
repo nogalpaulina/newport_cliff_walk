@@ -133,7 +133,7 @@ footer p {
 
 @media(max-width: 500px){
 	.jumbotron {
-    	height: 450px !important;
+    	height: 650px !important;
     	background-image: none;
     	text-align: center;
     }
@@ -144,11 +144,15 @@ footer p {
 	display: block;
     }
 
-    section#feature ul li {
-    	font-size: 19px!important;
+    #title-bar {
+    	min-height: 100px !important;
     }
 
-    footer p {
+    section#feature ul li {
+    	font-size: 19px !important;
+    }
+
+    footer a p {
     	float: none;
     	text-align: center;
     	padding-top: 20px;
